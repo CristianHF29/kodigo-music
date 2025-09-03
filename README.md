@@ -38,6 +38,7 @@ SPA inspirada en plataformas de música (Spotify/Deezer/Apple Music). Permite:
 ---
 
 ## 📦 Estructura (resumen)
+```bash
 kodigo-music/
 └─ src/
    ├─ components/
@@ -55,6 +56,7 @@ kodigo-music/
    ├─ App.jsx
    ├─ main.jsx
    └─ index.css
+```
 
 ---
 
