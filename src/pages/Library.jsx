@@ -4,8 +4,9 @@ import AlbumCard from "../components/AlbumCard";
 import { usePlayer } from "../PlayerProvider";
 
 const seed = [
-    { id: "seed-1", cover: "https://picsum.photos/seed/a/500", title: "Neon Dreams", artist: "Atlas", year: 2024, previewUrl: null },
-    { id: "seed-2", cover: "https://picsum.photos/seed/c/500", title: "Parallel", artist: "Nova", year: 2023, previewUrl: null },
+    { id: "seed-1", cover: "https://i.ytimg.com/vi/NTa6Xbzfq1U/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH-BIAC4AOKAgwIABABGDYgUSh_MA8=&rs=AOn4CLAH_yP9JtFv1JMErBLgfajKEsG5Kg", title: "Super MARIO BROS", artist: "Koji Kondo", year: 1986, previewUrl: "https://github.com/CristianHF29/filescontainer/raw/refs/heads/main/Super%20Mario%20Bros.%20Theme%20Song%20-%20ultragamemusic.mp3" },
+    { id: "seed-2", cover: "https://i1.sndcdn.com/artworks-000601263640-q7qo1x-t500x500.jpg", title: "Gurenge", artist: "LiSA", year: 2019, previewUrl: "https://github.com/CristianHF29/filescontainer/raw/refs/heads/main/Demon%20Slayer%20-%20Opening%201%20%204K%20%2060FPS%20%20Creditless%20%20-%20Anicrad.mp3" },
+    { id: "seed-3", cover: "https://i.ytimg.com/vi/qPdPjWkJZF8/sddefault.jpg", title: "Dandadan", artist: "Okotone", year: 2024, previewUrl: "https://github.com/CristianHF29/filescontainer/raw/refs/heads/main/DAN%20DA%20DAN%20-%20Opening%20%20Otonoke%20by%20Creepy%20Nuts.mp3" },
 ];
 
 const STORAGE_KEY = "kodigo-music:library";
@@ -33,7 +34,7 @@ export default function Library() {
     const onAdd = (data) => {
         const item = {
             id: `local-${Date.now()}`,
-            cover: data.cover || "https://picsum.photos/seed/new/500",
+            cover: data.cover || "https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/06/music-logo-design.jpg",
             title: data.title.trim(),
             artist: data.artist.trim(),
             year: Number(data.year) || new Date().getFullYear(),
