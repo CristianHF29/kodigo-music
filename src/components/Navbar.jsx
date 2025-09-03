@@ -20,8 +20,8 @@ export default function Navbar() {
                 display: "flex", alignItems: "center",
                 justifyContent: "space-between", padding: "14px 16px"
             }}>
-                <div style={{ fontWeight: 650 }}>🎵 Kodigo Music</div>
-                <div style={{ display: "flex", gap: 2 }}>
+                <div style={{ fontWeight: 600, marginRight: 10 }}>🎵 Kodigo Music</div>
+                <div style={{ display: "flex", gap: 4 }}>
                     <NavLink to="/" style={linkStyle}>Inicio</NavLink>
                     <NavLink to="/library" style={linkStyle}>Biblioteca</NavLink>
                     <NavLink to="/contact" style={linkStyle}>Contacto</NavLink>
