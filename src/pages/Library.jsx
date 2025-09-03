@@ -43,7 +43,7 @@ export default function Library() {
             title: data.title.trim(),
             artist: data.artist.trim(),
             year: Number(data.year) || new Date().getFullYear(),
-            previewUrl: data.preview || null,
+            previewUrl: data.preview || "https://github.com/CristianHF29/filescontainer/raw/refs/heads/main/Gourmet%20Race%20-%20Kirby_%20Super%20Star.mp3",
         };
         setAlbums(prev => [item, ...prev]);
         reset();
