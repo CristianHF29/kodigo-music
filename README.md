@@ -81,7 +81,7 @@ npm run preview
 # ▶️ Añadir canciones manualmente
 ## Links:
 
-1. https://github.com/CristianHF29/filescontainer/raw/refs/heads/main DAN%20DA%20DAN%20-%20Opening%20%20Otonoke%20by%20Creepy%20Nuts.mp3
+1. https://github.com/CristianHF29/filescontainer/raw/refs/heads/mainDAN%20DA%20DAN%20-%20Opening%20%20Otonoke%20by%20Creepy%20Nuts.mp3
 
 2. https://github.com/CristianHF29/filescontainer/raw/refs/heads/main/Praise%20With%20Everything%20%20Planetshakers%20Official%20Lyric%20Video%20-%20Planetshakers%20Resources.mp3
 
